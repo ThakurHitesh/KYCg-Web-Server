@@ -3,4 +3,4 @@ Web server to predict the function of the uncharacterized genes.
 This webserver requires linux based system as a server to be fully functional.
 
 Home page:
-![](Imageforreadme/img1)
+![](imagesforReadme/img1)
