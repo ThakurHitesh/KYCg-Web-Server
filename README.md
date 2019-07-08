@@ -24,8 +24,8 @@ Result page:
 
 Tutorial:
 
-![](ImagesforReadme/img9.jpg)
+![](ImagesforReadme/img9.png)
 
 Contact:
 
-![](ImagesforReadme/img10.jpg)
+![](ImagesforReadme/img10.png)
