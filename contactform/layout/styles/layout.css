@@ -1,0 +1,304 @@
+@charset "utf-8";
+@import url("font-awesome.min.css");
+@import url("framework.css");
+
+/* Rows
+--------------------------------------------------------------------------------------------------------------- */
+.row0, .row0 a{}
+.row1, .row1 a{}
+.row2, .row2 a{}
+.row3, .row3 a{}
+.row4, .row4 a{}
+.row5, .row5 a{}
+
+
+/* Top Bar
+--------------------------------------------------------------------------------------------------------------- */
+#topbar{padding:15px 0; font-size:1.2rem; text-transform:uppercase;}
+
+#topbar *{margin:0;}
+#topbar ul li{display:inline-block; margin-right:10px; padding-right:15px; border-right:1px solid;}
+#topbar ul li:last-child{margin-right:0; padding-right:0; border-right:none;}
+#topbar i{margin:0 5px 0 0; line-height:normal;}
+
+
+/* Page Intro
+--------------------------------------------------------------------------------------------------------------- */
+#pageintro{padding:150px 0 250px;}
+
+#pageintro article{display:block; max-width:65%; margin:0 auto; text-align:center;}
+#pageintro .heading{margin-bottom:20px; font-size:4rem;}
+#pageintro p:first-of-type{margin:0 0 20px 0; text-transform:uppercase; font-size:1.2rem; letter-spacing:5px;}
+#pageintro footer{margin-top:50px;}
+
+
+/* Content Area
+--------------------------------------------------------------------------------------------------------------- */
+.container{padding:80px 0;}
+
+/* Content */
+.container .content{}
+
+.sectiontitle{display:block; max-width:55%; margin:0 auto 80px; text-align:center;}
+.sectiontitle *{margin:0;}
+
+#introblocks{position:relative; z-index:1; margin:-180px 0 80px; padding:80px 0 0 0; border-radius:10px;}
+#introblocks > ul > li{text-align:center;}/* Used when elements stack */
+#introblocks > ul > li img{width:100%;}/* Force image width to fit the full width - remove if you don't like the function */
+#introblocks article{display:block; position:relative; padding:0 0 0 95px; line-height:normal; text-align:left;}
+#introblocks article *{margin:0; padding:0;}
+#introblocks article i{display:inline-block; position:absolute; top:0; left:0; width:85px; overflow:hidden; line-height:1; font-size:65px;}
+#introblocks article .heading{margin-bottom:10px;}
+
+.overview{}
+.overview > li{margin-bottom:50px;}
+.overview > li:nth-last-child(-n+3){margin-bottom:0;}/* Removes bottom margin from the last three items - margin is restored in the media queries when items stack */
+.overview > li:nth-child(3n+1){margin-left:0; clear:left;}/* Removes the need to add class="first" */
+.overview > li figure{max-width:320px;}
+.overview > li figure img{margin-bottom:30px;}
+.overview > li figure figcaption *{margin:0;}
+.overview > li figure .heading{margin-bottom:10px; font-size:1.2rem;}
+
+.clients{}
+.clients li:last-child{margin-bottom:0;}/* Used when elements stack in small viewports */
+.clients li a{display:inline-block; max-width:100%;}
+
+
+/* Footer
+--------------------------------------------------------------------------------------------------------------- */
+#footer{padding:80px 0 50px;}
+
+#footer .heading{margin-bottom:50px; font-size:2rem;}
+
+#footer .linklist li{display:block; margin-bottom:15px; padding:0 0 15px 0; border-bottom:1px solid;}
+#footer .linklist li:last-child{margin:0; padding:0; border:none;}
+#footer .linklist li::before, #footer .linklist li::after{display:table; content:"";}
+#footer .linklist li, #footer .linklist li::after{clear:both;}
+
+#footer .contact{}
+#footer .contact.linklist li, #footer .contact.linklist li:last-child{position:relative; padding-left:40px;}
+#footer .contact li *{margin:0; padding:0; line-height:1.6;}
+#footer .contact li i{display:block; position:absolute; top:0; left:0; width:30px; font-size:16px; text-align:center;}
+
+#footer input, #footer button{border:1px solid;}
+#footer input{display:block; width:100%; padding:8px;}
+#footer button{padding:8px 18px 10px; text-transform:uppercase; font-weight:700; cursor:pointer;}
+
+
+/* Copyright
+--------------------------------------------------------------------------------------------------------------- */
+#copyright{padding:20px 0;}
+#copyright *{margin:0; padding:0;}
+
+
+/* Font Awesome Social Icons
+--------------------------------------------------------------------------------------------------------------- */
+.faico{margin:0; padding:0; list-style:none;}
+.faico li{display:inline-block; margin:8px 5px 0 0; padding:0; line-height:normal;}
+.faico li:last-child{margin-right:0;}
+.faico a{display:inline-block; width:36px; height:36px; line-height:36px; font-size:18px; text-align:center;}
+
+.faico a{color:#474747; background-color:#EEEEEE;}
+.faico a:hover{color:#FFFFFF; background-color:#FF090F;}
+
+.faicon-dribble:hover{background-color:#EA4C89;}
+.faicon-facebook:hover{background-color:#3B5998;}
+.faicon-google-plus:hover{background-color:#DB4A39;}
+.faicon-linkedin:hover{background-color:#0E76A8;}
+.faicon-twitter:hover{background-color:#00ACEE;}
+.faicon-vk:hover{background-color:#4E658E;}
+
+
+/* Colours
+--------------------------------------------------------------------------------------------------------------- */
+
+.overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
+
+.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#FF090F; border-color:#FF090F;}
+.btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
+
+
+/* Rows */
+.row0, .row0 a{color:#474747;}
+.row3{color:#474747; background-color:#FFFFFF;}
+.row4{color:#CBCBCB;}
+.row5{color:#676767; background-color:rgba(0,0,0,.5);}
+.row5 a{color:inherit;}
+
+
+/* Top Bar */
+#topbar ul li{border-color:red;}
+#topbar div:first-of-type li:first-child a{color:#D01818;}
+
+
+/* Page Intro */
+#pageintro{color:#FFFFFF;}
+
+
+/* Content Area */
+#introblocks{color:#474747; background-color:#FFFFFF;}
+#introblocks article i{color:rgba(0,0,0,.2);}
+#introblocks article:hover .heading a, #introblocks article:hover i{color:inherit;}
+
+#usrtop{
+	margin-top: 31px;
+	margin-left: 16px;
+}
+
+#usr{
+	border-style: solid;
+	border-width: 4px;
+	border-color: #474747;
+	width: 230px;
+	height: 67px;
+	border-radius: none;
+}
+
+/* Footer */
+#footer .heading{color:#FFFFFF;}
+#footer hr, #footer .borderedbox, #footer .linklist li{border-color:rgba(255,255,255,.2);}
+
+#footer input, #footer button{border-color:transparent;}
+#footer input{color:#474747; background-color:#EEEEEE;}
+#footer input:focus{border-color:#FF090F;}
+#footer button{color:#FFFFFF; background-color:#FF090F;}
+
+
+/* Media Queries
+--------------------------------------------------------------------------------------------------------------- */
+@-ms-viewport{width:device-width;}
+
+
+/* Max Wrapper Width - Laptop, Desktop etc.
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (min-width:978px){
+	.hoc{max-width:978px;}
+}
+
+
+/* Mobile Devices
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width:991.5px){	
+	#usr{
+	border-style: solid;
+	border-width: 4px;
+	border-color: #474747;
+	width: 200px;
+	height: 55px;
+	border-radius: none;
+}
+}
+@media screen and (max-width:900px){
+	.hoc{max-width:90%;}
+
+	#topbar{}
+
+	.container{}
+	#comments input[type="reset"]{margin-top:10px;}
+	.pagination li{display:inline-block; margin:0 5px 5px 0;}
+
+	#footer{}
+
+	#copyright{}
+	#copyright p:first-of-type{margin-bottom:10px;}
+
+}
+@media screen and (max-width:820px){
+#usr{
+	border-style: solid;
+	border-width: 4px;
+	border-color: #474747;
+	width: 150px;
+	height: 45px;
+	border-radius: none;
+}
+}
+@media screen and (max-width:750px){
+	.flex-direction-nav .flex-prev, .flex-direction-nav .flex-next{display:none;}
+	.flex-control-nav{display:block;}
+
+	.imgl, .imgr{display:inline-block; float:none; margin:0 0 10px 0;}
+	.fl_left, .fl_right{display:block; float:none;}
+	.group .group > *:last-child, .clear .clear > *:last-child, .clear .group > *:last-child, .group .clear > *:last-child{margin-bottom:0;}/* Experimental - Needs more testing in different situations, stops double margin when stacking */
+	.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:block; float:none; width:auto; margin:0 0 30px 0; padding:0;}
+
+	#topbar{padding-top:15px; text-align:center;}
+	#topbar ul{margin:0 0 15px 0; line-height:normal;}
+
+	#pageintro article{max-width:none; text-align:left;}
+	#pageintro .heading{font-size:2rem;}
+
+	#introblocks .sectiontitle{max-width:80%;}
+	#introblocks > ul > li:last-child{margin-bottom:0;}
+
+	.sectiontitle{max-width:none;}
+
+	.overview > li:nth-last-child(-n+3){margin-bottom:50px;}
+
+	.cta > :first-child{margin-top:0;}
+	#usr{
+	border-style: solid;
+	border-width: 4px;
+	border-color: #474747;
+	width: 300px;
+	height: 66px;
+	border-radius: none;
+	}
+}
+@media screen and (max-width:403.5px){
+	#usr{
+	border-style: solid;
+	border-width: 4px;
+	border-color: #474747;
+	width: 274px;
+	height: 55px;
+	border-radius: none;
+	}
+}	
+@media screen and (max-width:450px){
+	#topbar ul li{margin-bottom:2px; padding-right:0; border-right:none;}
+
+}
+
+
+/* Other
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width:650px){
+	.scrollable{display:block; width:100%; margin:0 0 30px 0; padding:0 0 15px 0; overflow:auto; overflow-x:scroll;}
+	.scrollable table{margin:0; padding:0; white-space:nowrap;}
+
+	.inline li{display:block; margin-bottom:10px;}
+	.pushright li{margin-right:0;}
+
+	.font-x2{font-size:1.4rem;}
+	.font-x3{font-size:1.6rem;}
+}
+
+/* RESULT
+----------------------------------------------------------------------------------------------------------------*/
+/*TAB1*/
+.tabs-left{
+  border-bottom: none;
+  padding-top: 2px;
+}
+.tabs-left {
+  border-right: 1px solid #ddd;
+}
+.tabs-left>li{
+  float: none;
+  margin-bottom: 2px;
+}
+.tabs-left>li {
+  margin-right: -1px;
+}
+.tabs-left>li.active>a,
+.tabs-left>li.active>a:hover,
+.tabs-left>li.active>a:focus {
+  border-bottom-color: #ddd;
+  border-right-color: transparent;
+}
+.tabs-left>li>a {
+  border-radius: 4px 0 0 4px;
+  margin-right: 0;
+  display:block;
+}

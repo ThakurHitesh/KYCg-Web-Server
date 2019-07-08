@@ -1,0 +1,2 @@
+_Samples	PbfRNAi.opaque2_endosperm			Wildtype_endosperm			PbfRNAi_endosperm			Opaque2_endosperm		
+GRMZM5G876146	0.8331588872157087	0	0	0.8302896736136418	0	0	1.0007987914492642	0	0	0.9180411677020756	0	0

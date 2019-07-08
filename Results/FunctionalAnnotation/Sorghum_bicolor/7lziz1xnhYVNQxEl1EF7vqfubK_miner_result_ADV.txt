@@ -1,0 +1,26 @@
+Gene : 	Sobic.001G009900
+Location :	Chr01:902635-905799
+Protein primary transcript :	Sobic.001G009900.1
+Functional Annotations
+Defline
+Sobic.001G009900	6.3.2.1 - Pantoate--beta-alanine ligase (AMP-forming) / Pantothenate synthetase (1 of 1)
+Protein family details
+PFAM	PF02569	Pantoate_ligase
+PANTHER	PTHR21299	CYTIDYLATE KINASE/PANTOATE-BETA-ALANINE LIGASE
+PANTHER	PTHR21299:SF1	PANTOATE--BETA-ALANINE LIGASE
+Gene ontology details
+GO:0004592	pantoate-beta-alanine ligase activity	MF
+GO:0015940	pantothenate biosynthetic process	BP
+Mapman Annotation
+Co-factor and vitamine metabolism.pantothenate.pantoate beta-alanine ligase (PANC, pantothenate synthetase)	moderately similar to ( 382) AT5G48840 | Symbols: PANC, PTS, ATPTS | PANC (ARABIDOPSIS HOMOLOG OF BACTERIAL PANC); pantoate-beta-alanine ligase/ protein homodimerization | chr5:19803823-19805041 REVERSEmoderately similar to ( 477) PANC_ORYSA Pantoate--beta-alanine ligase (EC 6.3.2.1) (Pantothenate synthetase) (Pantoate-activating enzyme) - Oryza sativa (Rice)moderately similar to ( 477) loc_os03g63490 12003.m11217 protein pantoate--beta-alanine ligase, putative, expressedPanC PanC panC Pantoate_ligase PanC_ATPS   no original description
+Pathway details
+KEGG	PANTOTHENATE_AND_COA_BIOSYNTHESIS
+KEGG	BETA-ALANINE_METABOLISM
+PlantCyc 	PHOSPHOPANTOTHENATE_BIOSYNTHESIS_I
+Enzyme class details
+6.3.2.1	pantoate-beta-alanine ligase (AMP-forming)
+Orthologs details
+Arabidopsis thaliana	Oryza sativa	Brachypodium distachyon	Panicum virgatum	Setaria italica	Zea mays
+AT5G48840.1	LOC_Os03g63490.1	Bradi1g01460	Pavir.9NG012000	Seita.9G008300	GRMZM5G876146
+homolog of bacterial PANC	pantoate--beta-alanine ligase, putative, expressed	pantoate-beta-alanine ligase activity (Blast2GO)		6.3.2.1 - Pantoate--beta-alanine ligase (AMP-forming) / Pantothenate synthetase (1 of 1)	6.3.2.1 - Pantoate--beta-alanine ligase (AMP-forming) / Pantothenate synthetase (1 of 1)
+Coexpression
