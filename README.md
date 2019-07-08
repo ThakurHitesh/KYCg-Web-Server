@@ -4,7 +4,7 @@ This webserver requires linux based system as a server to be fully functional.
 
 Home page:
 
-![](ImagesforReadme/img1.png)
+![](ImagesforReadme/img1.jpg)
 
 Result page:
 
