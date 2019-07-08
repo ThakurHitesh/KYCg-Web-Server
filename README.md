@@ -8,10 +8,24 @@ Home page:
 
 Result page:
 
-![](ImagesforReadme/img5.png)
-![](ImagesforReadme/img6.png)
-![](ImagesforReadme/img7.png)
-![](ImagesforReadme/img8.png)
-![](ImagesforReadme/img9.png)
-![](ImagesforReadme/img10.png)
-![](ImagesforReadme/img11.png)
+![](ImagesforReadme/img2.jpg)
+
+![](ImagesforReadme/img3.jpg)
+
+![](ImagesforReadme/img4.jpg)
+
+![](ImagesforReadme/img5.jpg)
+
+![](ImagesforReadme/img6.jpg)
+
+![](ImagesforReadme/img7.jpg)
+
+![](ImagesforReadme/img8.jpg)
+
+Tutorial:
+
+![](ImagesforReadme/img9.jpg)
+
+Contact:
+
+![](ImagesforReadme/img10.jpg)
